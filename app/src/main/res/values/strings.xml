@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RemedialUCP2_041</string>
+    <string name="home_perpustakaan">Daftar Koleksi Buku</string>
+    <string name="entry_buku">Tambah Buku Baru</string>
+    <string name="entry_kategori">Tambah Kategori</string>
+    <string name="edit_buku">Edit Data Buku</string>
 </resources>

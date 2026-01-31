@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.remedialucp2_041.ui.theme.RemedialUCP2_041Theme
+import com.example.remedialucp2_041.view.uicontroller.HostNavigasi
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             RemedialUCP2_041Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    HostNavigasi(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
