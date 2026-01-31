@@ -37,14 +37,12 @@ fun HalamanHome(
         },
         floatingActionButton = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                // Tombol Tambah Kategori
                 FloatingActionButton(
                     onClick = navigateToEntryKategori,
                     containerColor = MaterialTheme.colorScheme.secondaryContainer
                 ) {
-                    Text("Cat", modifier = Modifier.padding(8.dp))
+                    Text("Kategori", modifier = Modifier.padding(8.dp))
                 }
-                // Tombol Tambah Buku
                 FloatingActionButton(
                     onClick = navigateToItemEntry,
                     shape = MaterialTheme.shapes.medium,
